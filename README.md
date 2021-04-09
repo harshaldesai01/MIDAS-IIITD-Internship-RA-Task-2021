@@ -59,7 +59,7 @@ Use this dataset (https://www.dropbox.com/s/pan6mutc5xj5kj0/trainPart1.zip) to t
 |:-: |:-: |
 |![224_s1_loss](plots/224_s1_losses.png) |![224_s1_accs](plots/224_s1_accs.png)
 
-Learning Rate (One Cycle Policy)
+Learning Rate over the training process (One Cycle Policy)
 
 ![224_s1_lr](plots/224_s1_lr.png)
 
