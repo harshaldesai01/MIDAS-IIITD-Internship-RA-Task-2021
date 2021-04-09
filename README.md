@@ -27,7 +27,7 @@ Use this dataset (https://www.dropbox.com/s/pan6mutc5xj5kj0/trainPart1.zip) to t
 - Images are of size (1200, 900) 
 - A batch of data:
 
-    <img src="plots/224_batch.png" height="300"/>
+    <img src="plots/224_batch.png" height="300">
 
 **NOTES**: 
 - All the reported accuracies are on the validation set unless stated otherwise.
@@ -325,7 +325,7 @@ Learning Rate (One Cycle Policy)
 - Image Size (28, 28)
 - A data batch:
     
-    <img src="plots/p3_batch.png" height="300"/>
+    <img src="plots/p3_batch.png" height="300">
 
 - MNIST test set as validation set 
 
@@ -342,7 +342,7 @@ Learning Rate (One Cycle Policy)
 ### Training progress using Random Initialization
 
 |Model |Losses | Accuracies | Final Accuracy | Learning Rate |
-|:-: |:-: |:-: |:-: | :-: | :-: |
+| :-: | :-: | :-: | :-: | :-: | 
 | Simple ConvNet (One Cycle Policy) | ![p3_cnn_ocp_loss](plots/p3_cnn_ocp_losses.png) |![p3_cnn_ocp_accs](plots/p3_cnn_ocp_accs.png) | 0.31%| 4e-1 |
 | Simple ConvNet (Normal Fit) | ![p3_cnn_fit_loss](plots/p3_cnn_fit_losses.png) |![p3_cnn_fit_accs](plots/p3_cnn_fit_accs.png) | 0.99%| 4e-1 |
 | ResNet18 | ![p3_18_ri_loss](plots/p3_r18_ri_losses.png) |![p3_r18_ri_accs](plots/p3_r18_ri_accs.png) | 0.07%| 2e-2 |
@@ -352,7 +352,7 @@ Learning Rate (One Cycle Policy)
 ### Training using pretrained weights 
 
 |Model |Losses | Accuracies | Final Accuracy | learning Rate |
-|:-: |:-: |:-: |:-: | :-: | :-: |
+| :-: | :-: | :-: | :-: | :-: | 
 | ResNet18 Pretrained (part 2 a) | ![p3_r18_pre2a_loss](plots/p3_r18_pre2a_losses.png) |![p3_r18_pre2a_accs](plots/p3_r18_pre2a_accs.png) | 0.03%| 4e-2 |
 | ResNet18 Pretrained (part 2 b) | ![p3_r18_pre2b_loss](plots/p3_r18_pre2b_losses.png) |![p3_r18_pre2b_accs](plots/p3_r18_pre2b_accs.png) | 0%| 3e-2 |
 
