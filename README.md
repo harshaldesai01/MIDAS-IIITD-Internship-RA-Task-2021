@@ -196,7 +196,7 @@ Learning Rate over the training process (One Cycle Policy)
 
 **Top Losses**
 
-<img src="plots/top_losses.png" height="300"/>
+<img src="plots/top_losses.png" height="500"/>
 
 - As we can see from the above plot, most of the top losses are for images of the digit 0 and letter O
 - The most confused classes could be attributed to their close similarities to each other 
@@ -368,10 +368,10 @@ Learning Rate over the training process (One Cycle Policy)
 
 | Label | Batch of images|
 |:-: |:-: |
-|1 |![noisy_1](plots/noisy_1.png) |
-|3 |![noisy_3](plots/noisy_3.png) |
-|7 |![noisy_7](plots/noisy_7.png) |
-|8 |![noisy_8](plots/noisy_8.png) |
+| **1** |<img src="plots/noisy_1.png" height="200"> |
+| **3** |<img src="plots/noisy_3.png" height="200"> |
+| **7** |<img src="plots/noisy_7.png" height="200"> |
+| **8** |<img src="plots/noisy_8.png" height="200"> |
 
 -  The above table confirms that the dataset contains highly noisy labels
 
@@ -381,3 +381,4 @@ Learning Rate over the training process (One Cycle Policy)
 - [fastai v1](fastai1.fast.ai)
 - [One Cycle Policy](https://arxiv.org/abs/1708.07120)
 - [Mixup](https://arxiv.org/abs/1710.09412)
+- [Focal Loss](https://arxiv.org/abs/1708.02002v2)
