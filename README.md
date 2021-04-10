@@ -6,7 +6,7 @@ The whole process has been done on Google Colab GPU Runtime.
 ***
 
 ## Environment Setup
-> pip install fastai==1.0.61 
+> pip install sklearn fastai==1.0.61 
 
 ## Steps to Reproduce 
 
